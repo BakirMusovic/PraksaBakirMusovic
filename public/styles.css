@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 24px;
+}
+header .header-top {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+header .header-top .social-icons a {
+  margin-right: 10px;
+}
+header .header-top .social-icons a img {
+  width: 20px;
+  height: 20px;
+}
+header .header-main {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+header .header-main .logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+header .header-main .search-bar {
+  display: flex;
+}
+header .header-main .search-bar input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 600px;
+}
+header .header-main .search-bar button {
+  padding: 10px;
+  background-color: #5A3E8B;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+header .header-main .search-bar button:hover {
+  background-color: #4b3172;
+}
+header .header-main .main-nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #333;
+  font-weight: bold;
+}
+header .header-main .main-nav a:hover {
+  color: #5A3E8B;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  height: 356px;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  width: Hug 152px px;
+  height: Hug 144px px;
+  top: 31px;
+  left: 161px;
+  gap: 24px;
+  opacity: 0px;
+}
+footer .footer-content .footer-column h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+footer .footer-content .footer-column a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+footer .footer-content .footer-column a:hover {
+  color: #ccc;
+}
+footer .footer-content .footer-column p {
+  margin: 0;
+}
+footer .footer-content .footer-column .social-icons {
+  display: flex;
+  align-items: center;
+}
+footer .footer-content .footer-column .social-icons a {
+  margin-right: 10px;
+}
+footer .footer-content .footer-column .social-icons a img {
+  width: 20px;
+  height: 20px;
+}
+footer .highlighted {
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=styles.css.map */

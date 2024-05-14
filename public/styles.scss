@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 24px;
+    .header-top {
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+
+        .social-icons {
+            a {
+                margin-right: 10px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+
+    }
+
+    .header-main {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+
+        .logo {
+            a {
+                text-decoration: none;
+                font-size: 24px;
+                font-weight: bold;
+                color: #333;
+            }
+        }
+
+        .search-bar {
+            display: flex;
+            input {
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px 0 0 5px;
+                outline: none;
+                width: 600px; 
+            }
+            button {
+                padding: 10px;
+                background-color: #5A3E8B;
+                color: white;
+                border: none;
+                border-radius: 0 5px 5px 0;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #4b3172;
+                }
+            }
+        }
+
+        .main-nav {
+            a {
+                text-decoration: none;
+                margin-left: 20px;
+                color: #333;
+                font-weight: bold;
+                
+                &:hover {
+                    color: #5A3E8B;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+        width: Hug (152px)px;
+        height: Hug (144px)px;
+        top: 31px;
+        left: 161px;
+        gap: 24px;
+        opacity: 0px;
+
+
+        .footer-column {
+            h3 {
+                margin-top: 0;
+                font-size: 18px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                display: block;
+                margin-bottom: 10px;
+                
+                &:hover {
+                    color: #ccc;
+                }
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .social-icons {
+                display: flex;
+                align-items: center;
+
+                a {
+                    margin-right: 10px;
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .highlighted {
+        font-size: 24px;
+        opacity: 0.5;
+    }
+    height: 356px;
+}
+
+
+
