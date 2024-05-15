@@ -34,7 +34,7 @@ header {
         padding: 20px;
 
         .logo {
-            a {
+            .auction {
                 text-decoration: none;
                 font-size: 24px;
                 font-weight: bold;
@@ -44,7 +44,7 @@ header {
 
         .search-bar {
             display: flex;
-            input {
+            .input-field {
                 padding: 10px;
                 border: 1px solid #ccc;
                 border-radius: 5px 0 0 5px;
@@ -52,7 +52,7 @@ header {
                 width: 600px; 
             }
 
-            button {
+            .input-button{
                 padding: 10px;
                 background-color: #5A3E8B;
                 color: white;
@@ -67,7 +67,7 @@ header {
         }
 
         .main-nav {
-            a {
+            .main-nav-a {
                 text-decoration: none;
                 margin-left: 20px;
                 color: #333;
@@ -97,7 +97,7 @@ footer {
                 font-size: 18px;
             }
 
-            a {
+            .left-footer-column {
                 text-decoration: none;
                 color: white;
                 display: block;
@@ -112,11 +112,13 @@ footer {
                 margin: 0;
                 font-size: 24px;
                 margin-bottom: 10px;  
+                color: white;
             }
 
             .social-icons {
                 display: flex;
                 align-items: center;
+                padding-top: 10px;
 
                 a {
                     margin-right: 10px;

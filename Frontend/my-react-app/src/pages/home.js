@@ -21,16 +21,16 @@ const Home = () => {
         </div>
         <div className="header-main">
           <div className="logo">
-            <a href="#">AUCTION</a>
+            <a className ="auction" href="#">AUCTION</a>
           </div>
           <div className="search-bar">
-            <input type="text" placeholder="Try enter: Shoes" />
-            <button type="submit">Search</button>
+            <input className ="input-field"type="text" placeholder="Try enter: Shoes" />
+            <button className ="input-button"type="submit">Search</button>
           </div>
           <nav className="main-nav">
-            <a href="#">HOME</a>
-            <a href="#">SHOP</a>
-            <a href="#">MY ACCOUNT</a>
+            <a className="main-nav-a"href="#">HOME</a>
+            <a className="main-nav-a"href="#">SHOP</a>
+            <a className="main-nav-a"href="#">MY ACCOUNT</a>
           </nav>
         </div>
       </header>
@@ -38,9 +38,9 @@ const Home = () => {
         <div className="footer-content">
           <div className="footer-column">
             <h3><span className="highlighted">AUCTION</span></h3>
-            <a href="#">About Us</a>
-            <a href="#">Terms and Conditions</a>
-            <a href="#">Privacy and Policy</a>
+            <a className="left-footer-column" href="#">About Us</a>
+            <a className="left-footer-column" href="#">Terms and Conditions</a>
+            <a className="left-footer-column" href="#">Privacy and Policy</a>
           </div>
           <div className="footer-column">
             <h3><span className="highlighted">GET IN TOUCH</span></h3>

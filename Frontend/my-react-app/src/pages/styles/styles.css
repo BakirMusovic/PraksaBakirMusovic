@@ -28,7 +28,7 @@ header .header-main {
   align-items: center;
   padding: 20px;
 }
-header .header-main .logo a {
+header .header-main .logo .auction {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
@@ -37,14 +37,14 @@ header .header-main .logo a {
 header .header-main .search-bar {
   display: flex;
 }
-header .header-main .search-bar input {
+header .header-main .search-bar .input-field {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px 0 0 5px;
   outline: none;
   width: 600px;
 }
-header .header-main .search-bar button {
+header .header-main .search-bar .input-button {
   padding: 10px;
   background-color: #5A3E8B;
   color: white;
@@ -52,16 +52,16 @@ header .header-main .search-bar button {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
-header .header-main .search-bar button:hover {
+header .header-main .search-bar .input-button:hover {
   background-color: #4b3172;
 }
-header .header-main .main-nav a {
+header .header-main .main-nav .main-nav-a {
   text-decoration: none;
   margin-left: 20px;
   color: #333;
   font-weight: bold;
 }
-header .header-main .main-nav a:hover {
+header .header-main .main-nav .main-nav-a:hover {
   color: #5A3E8B;
 }
 
@@ -80,23 +80,25 @@ footer .footer-content .footer-column h3 {
   margin-top: 0;
   font-size: 18px;
 }
-footer .footer-content .footer-column a {
+footer .footer-content .footer-column .left-footer-column {
   text-decoration: none;
   color: white;
   display: block;
   margin-bottom: 10px;
 }
-footer .footer-content .footer-column a:hover {
+footer .footer-content .footer-column .left-footer-column:hover {
   color: #ccc;
 }
 footer .footer-content .footer-column p, footer .footer-content .footer-column .contact-info {
   margin: 0;
   font-size: 24px;
   margin-bottom: 10px;
+  color: white;
 }
 footer .footer-content .footer-column .social-icons {
   display: flex;
   align-items: center;
+  padding-top: 10px;
 }
 footer .footer-content .footer-column .social-icons a {
   margin-right: 10px;
