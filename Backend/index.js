@@ -22,6 +22,6 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(3000, () => {
-  console.log(`> Ready on http://localhost:3000`);
+app.listen(process.env.PORT, () => {
+  console.log(`> Ready on http://localhost:5000`);
 });
