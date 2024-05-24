@@ -1,0 +1,74 @@
+.about-us {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  padding: 2%; 
+
+  .header { 
+    font-family: 'Lato', sans-serif;
+    font-size: 2.4vw; 
+    font-weight: 600;
+    line-height: 3.6vh; 
+    letter-spacing: 0.84px;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 5%;
+  }
+
+  .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 2.4vh;
+    text-align: left;
+    color: #9B9B9B;
+  }
+
+  .image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%; 
+
+    .top-image,
+    .bottom-images {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+
+    .top-image {
+      width: 90%; 
+      height: 50%;
+      max-height: calc(80vh - 4%);
+      margin-bottom: 2%; 
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .bottom-images {
+      width: 90%;
+      max-width: 54.8vw;
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 48%;
+        height: auto;
+        max-height: calc(100vh - 4%); 
+        object-fit: cover;
+      }
+    }
+  }
+}

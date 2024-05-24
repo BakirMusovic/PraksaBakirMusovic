@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .terms-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+    .linkHome {
+      text-decoration: none;
+      color: #000;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    
+    .headerSpan {
+      color: #555;
+    }
+  }
+  
+  .header1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #252525;
+    text-align: left;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+  
+    .header2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #252525;
+
+    }
+    
+    .textParagraph {
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #9B9B9B;
+    }
+  }
+  
