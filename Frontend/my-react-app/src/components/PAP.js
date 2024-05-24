@@ -1,7 +1,8 @@
 import React from 'react';
+
 import '../pages/styles/PAP.scss'
 
-const TermsAndConditions=() => {
+const TermsAndConditions = () => {
   return (
     <div className='terms-container'>
       <div className='header-container'>

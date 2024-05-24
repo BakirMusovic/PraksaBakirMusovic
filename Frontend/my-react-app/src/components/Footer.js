@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import SocialMedia from './SocialMedia';
 import facebook from '../pages/pictures/facebook-icon.png';
 import instagram from '../pages/pictures/instagram-icon.png';
 import twitter from '../pages/pictures/twitter-icon.png';
+
 import '../pages/styles/Footer.scss';
 
 const Footer = () => {

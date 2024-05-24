@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchBar=() => {
+const SearchBar = () => {
     return (
         <header className='header'>
             <input className='input-field' type='text' placeholder='Try enter: Shoes' />

@@ -1,14 +1,16 @@
 import React from 'react';
+
 import SocialMedia from './SocialMedia';
-import '../pages/styles/BlackHeader.scss';
 import facebook from '../pages/pictures/facebook-icon.png';
 import instagram from '../pages/pictures/instagram-icon.png';
 import twitter from '../pages/pictures/twitter-icon.png';
 
-const BlackHeader=() => {
+import '../pages/styles/BlackHeader.scss';
+
+const BlackHeader = () => {
   return (
-    <div className='header-top'>
-      <div className='social-icons'>
+    <div className= 'header-top'>
+      <div className= 'social-icons'>
         <SocialMedia href='https://facebook.com' src={ facebook } alt='Facebook' />
         <SocialMedia href='https://twitter.com' src={ instagram } alt='Twitter' />
         <SocialMedia href='https://instagram.com' src={ twitter } alt='Instagram' />

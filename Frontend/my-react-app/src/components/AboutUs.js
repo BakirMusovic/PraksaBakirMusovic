@@ -1,10 +1,12 @@
 import React from 'react';
-import '../pages/styles/AboutUs.scss';
+
 import person1 from '../pages/pictures/Person1.png';
 import person2 from '../pages/pictures/Person2.png';
 import person3 from '../pages/pictures/Person3.png';
 
-const AboutUs=() => {
+import '../pages/styles/AboutUs.scss';
+
+const AboutUs = () => {
     return (
         <div className='about-us'>
             <header className='header'>

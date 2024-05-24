@@ -1,8 +1,9 @@
 import React from 'react';
+
 import BlackHeader from './BlackHeader';
 import WhiteHeader from './WhiteHeader';
 
-const Header=() => {
+const Header = () => {
     return (
         <div className='header'>
             <BlackHeader />
